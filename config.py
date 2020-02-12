@@ -48,7 +48,7 @@ tf.app.flags.DEFINE_integer('burnin_samples',50000,
                             """Total number of samples to use""")
 tf.app.flags.DEFINE_integer('total_samples', 640,
                             """Total number of samples to gather""")
-tf.app.flags.DEFINE_float('gamma_percentile', 0.80,
+tf.app.flags.DEFINE_float('gamma_percentile', 80,
                           """percentile of gamma used in sampling""")
 tf.app.flags.DEFINE_float('epsilon', 1e-8,
                           """epsilon used in sampling""")
